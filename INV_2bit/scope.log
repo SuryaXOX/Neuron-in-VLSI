@@ -1,0 +1,77 @@
+ScopeSigMgr:loadpffile /filespace/w/wsan3/ece555/ECE555/INV_2bit/test.tr0 1 openonly
+# PF:1
+wm geometry .sigmgr._PF:1 290x358+512+384
+wm geometry .sigmgr._PF:1 1024x682+0+31
+wm geometry .sigmgr._PF:1 1024x682+422+345
+wm geometry .sigmgr._PF:1 290x358+422+345
+wm geometry .sigmgr._PF:1 290x358+403+321
+wm geometry .sigmgr._PF:1 290x358+387+305
+wm geometry .sigmgr._PF:1 290x358+381+296
+wm geometry .sigmgr._PF:1 290x358+381+295
+wm geometry .sigmgr._PF:1 290x358+380+294
+pf:read PF:1 v(in<0>) v(in<1>) v(out<0>) v(out<1>)
+# WF:1:1 WF:1:2 WF:1:3 WF:1:4
+Graph addsignal {WF:1:1 WF:1:2 WF:1:3 WF:1:4} -region {new new new new} -yview {real(y) real(y) real(y) real(y)} -xview {real(x) real(x) real(x) real(x)} -tracehi {2 2 2 2}
+# Signal0 Signal1 Signal2 Signal3
+Mdi:FullSize
+ScopeSigMgr:Unload 0 {{(1) test.tr0}}
+wm geometry .sigmgr._PF:1 290x358+395+286
+wm geometry .sigmgr._PF:1 290x358+404+277
+wm geometry .sigmgr._PF:1 290x358+412+268
+wm geometry .sigmgr._PF:1 290x358+416+258
+wm geometry .sigmgr._PF:1 290x358+422+234
+wm geometry .sigmgr._PF:1 290x358+423+224
+wm geometry .sigmgr._PF:1 290x358+423+214
+wm geometry .sigmgr._PF:1 290x358+423+206
+wm geometry .sigmgr._PF:1 290x358+416+196
+wm geometry .sigmgr._PF:1 290x358+405+189
+wm geometry .sigmgr._PF:1 290x358+390+182
+wm geometry .sigmgr._PF:1 290x358+367+175
+wm geometry .sigmgr._PF:1 290x358+319+160
+wm geometry .sigmgr._PF:1 290x358+276+147
+wm geometry .sigmgr._PF:1 290x358+243+137
+wm geometry .sigmgr._PF:1 290x358+212+127
+wm geometry .sigmgr._PF:1 290x358+205+125
+wm geometry .sigmgr._PF:1 290x358+203+124
+wm geometry .sigmgr._PF:1 290x358+202+124
+wm geometry .sigmgr._PF:1 290x358+199+123
+wm geometry .sigmgr._PF:1 290x358+198+123
+wm geometry .sigmgr._PF:1 290x358+197+123
+wm geometry .sigmgr._PF:1 290x358+196+123
+wm geometry .sigmgr._PF:1 290x358+195+123
+wm geometry .sigmgr._PF:1 290x358+194+123
+wm geometry .sigmgr._PF:1 290x358+192+123
+wm geometry .sigmgr._PF:1 290x358+191+123
+wm geometry .sigmgr 467x236+432+143
+wm geometry .sigmgr 467x236+425+143
+wm geometry .sigmgr 467x236+420+143
+wm geometry .sigmgr 467x236+412+143
+wm geometry .sigmgr 467x236+409+143
+wm geometry .sigmgr 467x236+406+143
+wm geometry .sigmgr 467x236+403+141
+wm geometry .sigmgr 467x236+400+140
+wm geometry .sigmgr 467x236+398+139
+wm geometry .sigmgr 467x236+397+138
+wm geometry .sigmgr 467x236+396+138
+wm geometry .sigmgr 467x236+395+137
+wm geometry .sigmgr 467x236+394+137
+wm geometry .sigmgr 467x236+393+137
+wm geometry .sigmgr 467x236+393+136
+wm geometry .sigmgr 467x236+392+136
+wm geometry .sigmgr 467x236+392+135
+wm geometry .sigmgr 467x236+392+134
+wm geometry .sigmgr 467x236+391+134
+wm geometry .sigmgr 467x236+391+133
+wm geometry .sigmgr 467x236+391+132
+wm geometry .sigmgr 467x236+391+130
+wm geometry .sigmgr 467x236+390+129
+wm geometry .sigmgr 467x236+390+128
+wm geometry .sigmgr 467x236+389+126
+wm geometry .sigmgr 467x236+388+125
+wm geometry .sigmgr 467x236+387+124
+wm geometry .sigmgr 467x236+386+123
+Graph:DSel
+Graph:Select Graph0
+Graph:DSel
+Graph axisconfig AxisX(0) -range {938.078p 1.13641n}
+Graph axisconfig {AxisX(0) AxisY(0,0) AxisY(1,0) AxisY(2,0) AxisY(3,0)} -range {all all all all all} -zoomed {0 0 0 0 0}
