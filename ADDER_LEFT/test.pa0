@@ -1,0 +1,11 @@
+       1 xi1.
+       2 xduts1.
+       3 xduts2.
+       4 xduts1.x_pm_adder_left%b.
+       5 xduts1.x_pm_adder_left%net3.
+       6 xduts1.x_pm_adder_left%net7.
+       7 xduts1.x_pm_adder_left%net6.
+       8 xduts1.x_pm_adder_left%a.
+       9 xduts1.x_pm_adder_left%net5.
+      10 xduts1.x_pm_adder_left%~cout.
+      11 xduts1.x_pm_adder_left%cin.
