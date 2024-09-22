@@ -1,0 +1,14 @@
+       1 xi1.
+       2 xi0.
+       3 xduts.
+       4 xfan0.
+       5 xfan1.
+       6 xduts.x_pm_mux_1s_2b%b<1>.
+       7 xduts.x_pm_mux_1s_2b%b<0>.
+       8 xduts.x_pm_mux_1s_2b%xi2/net1.
+       9 xduts.x_pm_mux_1s_2b%xi1/net1.
+      10 xduts.x_pm_mux_1s_2b%a<0>.
+      11 xduts.x_pm_mux_1s_2b%f<1>.
+      12 xduts.x_pm_mux_1s_2b%s.
+      13 xduts.x_pm_mux_1s_2b%a<1>.
+      14 xduts.x_pm_mux_1s_2b%f<0>.

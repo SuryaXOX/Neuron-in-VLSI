@@ -1,0 +1,25 @@
+* "simulator" "PrimeSim HSPICE"
+* "version" "T-2022.06 linux64"
+* "format" "HSP"
+* "rundate" "16:15:29 12/04/2022 "
+* "netlist" "testmux.sp "
+* "runtitle" "* example hspice testbench file (test.sp)"
+* time =  0.0000000e+00   
+* temperature =  2.5000000e+01   
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc= 1.0000000e-18   
+.nodeset
++ a = 9.0000000e-01   
++ b = 9.0000000e-01   
++ f = 8.9999998e-01   
++ in<0> = 5.4634680e-01   
++ in<1> = 5.4634680e-01   
++ out1 = 3.0421097e-07   
++ out<0> = 4.1241996e-02   
++ out<1> = 4.1241996e-02   
++ s = 9.0000000e-01   
++ s__ = 1.5837374e-07   
++ vdd! = 9.0000000e-01   
++ vss! = 0.0000000e+00   
+***   END: Saved Operating Point ***                     
